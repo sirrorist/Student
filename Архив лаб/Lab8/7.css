@@ -1,0 +1,23 @@
+.main
+{
+    background-color:lightgrey;
+	width: 560;
+    border: black solid 2px;
+    margin-left: 81;
+}
+
+.pr
+{
+    z-index: 2;
+	float:right;
+	margin: 8px 0 0 0;
+    font-size: 11pt;
+}
+.tx{
+    font-size: 20;
+    font-weight: bold;
+    margin: 0 0 0 81;
+}
+.fs{
+    width: 240;
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Формы</title>
+<link rel="stylesheet" href="7.css">
+</head>
+<body onload = "load()" bgcolor = "darkgrey">
+<span class="tx">Работа с датами</span>
+<div class = "main">
+<form name = "form">
+<div class = "pr">Начало периода
+<input type = "text" name = "begin" onblur = "check_begin()"><br><P></P>Конец периода
+<input type = "date" name = "end">
+</div>
+<P><fieldset class="fs"> 
+<legend>Определить</legend>
+<div>
+<input type = "radio" name = "radBut">
+Количество дней
+</div>
+<div>
+<input type = "radio" name = "radBut">
+Количество выходных
+</div>
+<div>
+<input type = "radio" name = "radBut">
+Количество рабочих дней
+</div>
+<div>
+<input type = "radio" name = "radBut">
+Количество полных недель
+</div>
+<div>
+<input type = "radio" name = "radBut">
+Количество полных месяцев
+</div>
+</fieldset>
+<div class = "second">
+<P></P>Результат
+<input type = "text" name = "resultat">
+</div>
+<div class = "third">
+<input type = "button" value = "Вычислить" onclick = "calculate()">
+</div></P>
+</form>
+</div>
+<script src="js.js"></script>	
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>lab5-2</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<script src="js.js"></script>
+<form name="anketa">
+<div class="mm">
+<div class="txm">Анкета переводчика</div>
+<div class="m"><div class="s1">
+Язык  <select name="a1" multiple size="2" id="pr1" onchange="ch()">
+    <option name="a1" value='1'>английский</option>
+    <option name="a1" value='2'>французский</option>
+    <option name="a1" value='3'>немецкий</option>
+    <option name="a1" value='4'>китайский</option>
+    <option name="a1" value='5'>итальянский</option>
+    </select><p>
+    Стоимость <input type="text" name="inpt1" value="" disabled></div>
+<div class="s1">
+Статус  <select name="a2" id="pr2" onchange="ch()">
+    <option name="a2" value="400">студент</option>
+    <option name="a2" value="400">аспирант</option>
+    <option name="a2" value="500">школьный преподаватель</option>
+    <option name="a2" value="500">преподаватель вуза</option>
+    <option name="a2" value="600">частный преподаватель</option>
+    <option name="a2" value="800">носитель языка</option>
+    </select><p>
+    Кол-во часов <input type="text" name="inpt2" onchange="ch()" id="pr1"></div>
+</div>
+    <div class="m2">
+        Вознаграждение <textarea type="text" size="50" name="txtres" value="" id="iddd" disabled></textarea>
+    </div>
+    <div class="btns">
+    <input type="button" name="res" value="Результат" id="btnn1" onclick="goo()" disabled>
+    <input type="button" name="clear" value="Очистить" id="btnn" onclick="refresh()">
+    </div>
+</div>
+</form>
+</body>
+</html>

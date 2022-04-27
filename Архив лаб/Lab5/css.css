@@ -1,0 +1,55 @@
+.m{
+    height: 420;
+    width: 460px;
+    padding: 20 20 0 30;
+    line-height: 1.9;
+    font-size: 8.6pt;
+    font-family: Arial;
+    border: 3px lightgray groove;
+}
+.t1{
+    padding-right: 55;
+}
+#tx1{
+    width: 322px;
+    
+}
+.mt{
+    line-height: 2.4;
+    margin: 25 0 0 0;
+    column-count: 2;
+}
+.ra{
+    padding-top: 10;
+    height: 175px;
+    
+}
+.ra1{
+    border: 2px lightgray groove;
+    margin-bottom: 10;
+    text-align: center;
+    letter-spacing: 5;
+    padding: 5 0 5 0;
+    
+}
+.ra2{
+    border: 2px lightgray groove;
+    margin-bottom: 10;
+    text-align: center;
+    letter-spacing: 5;
+    padding: 5 0 5 0;
+}
+.t2{
+    margin:0 50 0 0;
+    
+}
+
+#gov{
+    width: 273;
+    resize: none;
+}
+.bts{
+    margin-top: 30;
+    text-align: center;
+    letter-spacing: 90;
+}

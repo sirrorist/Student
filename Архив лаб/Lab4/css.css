@@ -1,0 +1,38 @@
+.m{
+    padding-left: 20;
+    font-family: arial;
+    line-height: 2;
+    width: 490;
+    height: 440;
+    border: 2px black solid;
+    background-color: azure; margin: auto;
+}
+.tm{
+    font-family: tiems;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17pt;
+    margin: 10 0 15 0;
+}
+#bt{
+    font-weight: bold;
+    font-size: 11pt;
+    margin: 18 0 0 130;
+    width: 133;
+}
+#txb{
+    margin:-24 0 0 70 ;
+    resize: none;
+    width: 240;
+    height: 60;
+}
+.main{
+    width: 470px;
+    height:210px ;
+    display: inline-block;
+}
+#scr{
+    width: 200;
+    margin: -155 0 0 250;
+    
+}

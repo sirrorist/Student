@@ -1,0 +1,53 @@
+<HTML>
+<head>
+<link href="css.css" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+<form name="anketa">
+<p>Исходный текст на русском языке
+<br>
+<input type="text" class="txtb2" oninput="Text(value)" id="textt">
+<div class="fr">
+<div class="box">Замена в строке
+<div class="fr">  
+<div>
+<input type="checkbox" id="shwcnge">Подсчет числа замен
+</div>
+</div>
+<div class="fr">
+<div>
+<input type="checkbox" id="swapg">Заменить гласные на 
+</div>
+<div>
+<input type="text" class="txtb1" id="swapbx">
+</div>
+</div>
+<div class="fr">
+<div>
+<input type="checkbox" id="space">Убрать все пробелы
+</div>
+</div>
+<div class="fr">
+<p>Количество замен</p>
+<div><input type="text" class="txtb1" disabled id="count"></div>
+</div>
+</div>
+<div class="box">
+<label>Поиск в строке</label><br>
+<input type="radio" name="poisk" value="1">Самое длинное слово<br>
+<input type="radio" name="poisk" value="0">Самое короткое слово<br>
+<input type="radio" name="poisk" value="2">Одинаковое количество гласных и согласных
+</div>
+</div>
+<br>
+<span class="tt">Измененный текст</span>
+<br>
+<input type="text" class="txtb2" id="result">
+<br>
+<input type="button" disabled value="Выполнить" id="show" onClick="go()">
+<script src="js.js"></script>
+</form>
+</div> 
+</body>
+</HTML>
